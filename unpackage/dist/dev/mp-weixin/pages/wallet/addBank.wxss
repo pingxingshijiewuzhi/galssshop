@@ -1,0 +1,75 @@
+
+page {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.top {
+	width: 94%;
+	height: 38%;
+	margin: 30rpx auto;
+}
+.list {
+	width: 100%;
+	height: 22%;
+	border-bottom: 1px solid #F3F3F3;
+}
+.title {
+	width: 200rpx;
+	letter-spacing: 3rpx;
+	font-size: 30rpx;
+}
+.uni-input-placeholder {
+	font-size: 28rpx;
+	letter-spacing: 3rpx;
+}
+.uni-input {
+	margin-left: 20rpx;
+	width: 340rpx;
+}
+.list_l {
+	width: 75%;
+	height: 100%;
+}
+.code {
+	color: #F94F5F
+}
+.btns {
+	width: 100%;
+	height: 120rpx;
+	position: fixed;
+	bottom: 32rpx
+}
+.btns image {
+	width: 94%;
+	height: 100rpx
+}
+.jia {
+	height: 100rpx;
+	background-color: #FFFFFF;
+	color: #999999;
+	padding-left: 30rpx;
+}
+.jia image {
+	width: 600rpx;
+	height: 90rpx;
+}
+.tian {
+	font-size: 32rpx;
+}
+.cu-dialog {
+	height: 540rpx;
+	background-color: #FFFFFF;
+}
+.cu-list.menu {
+	height: 320rpx;
+	background-color: #FFFFFF;
+	overflow-y: scroll;
+}
+.bank_img {
+	width: 40rpx;
+	height: 40rpx;
+	border-radius: 20rpx;
+	margin-right: 30rpx
+}
+

@@ -1,0 +1,233 @@
+
+.index_bigbox {
+	height: 100vh;
+	width: 100vw;
+}
+.index_content {
+	width: 100%;
+	margin-bottom: 50rpx
+}
+.big_box {
+	background-color: #FFFFFF;
+}
+.kong_new{
+	width: 100%;
+	height: 25px;
+	background-color: #FF3237;
+}
+.index_indexes {
+	height: 116rpx;
+	padding-left: 10rpx;
+	padding-right: 10rpx;
+	/* padding-top: 30rpx; */
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	background-color: #FF3237;
+}
+.cu-bar {
+	width: 650rpx;
+}
+.action {
+	width: 110rpx;
+	height: 50rpx;
+	font-size: 30rpx;
+	letter-spacing: 2rpx;
+}
+.index_indexes_left input {
+	width: 86%;
+}
+.index_indexes_tupian {
+	height: 64rpx;
+	width: 50rpx;
+}
+.index_indexes_pic {
+	width: 35rpx;
+	height: 35rpx;
+	/* border:2rpx solid green; */
+}
+.search-form {
+	width: 400rpx;
+	height: 50rpx;
+	font-size: 12rpx;
+	margin-left: 25rpx;
+}
+.index_indexes_left {
+	width: 650rpx;
+	height: 60rpx;
+	border-radius: 12rpx;
+	padding-left: 12rpx;
+	background-color: #FF7E71;
+}
+.index_body1 {
+	width: 94%;
+	height: 330rpx;
+	border-radius: 20rpx;
+	margin: 15rpx auto;
+}
+.uni-input-placeholder {
+	font-size: 28rpx;
+	color: #FFFFFF;
+	/* margin-right: 30rpx; */
+}
+.index_body2 {
+	width: 100%;
+	height: 340rpx;
+	font-size: 28rpx;
+	background-color: #FFFFFF;
+}
+.index_body2_box1 {
+	width: 25%;
+	display: inline-block;
+	text-align: center;
+	margin-top: 10rpx;
+}
+.index_body2_box1_top {
+	width: 100%;
+	height: 70%;
+	/* border:2rpx solid green; */
+}
+.index_body2_box1_bottom {
+	width: 100%;
+	height: 60rpx;
+	line-height: 60rpx;
+	overflow: hidden;
+}
+.image_pic1 {
+	width: 90rpx ;
+	height: 90rpx;
+	border-radius: 40rpx;
+	display: block;
+	margin: 0 auto;
+}
+
+/* .kong {
+	width: 100%;
+	height: 20rpx;
+	background-color: #F9F9F9;
+} */
+.index_body3 {
+	width: 696rpx;
+	height: 120rpx;
+	font-size: 32rpx;
+	color: #000000;
+	margin: 0 auto;
+	letter-spacing: 4rpx;
+}
+.zan {
+	width: 36rpx;
+	height: 36rpx;
+	margin-right: 20rpx
+}
+.index_body4 {
+	width: 100%;
+	margin-bottom: 120rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+}
+.index_body4_box {
+	width: 342rpx;
+	height: 430rpx;
+	background-color: #FFF;
+	border-radius: 20rpx;
+	/* margin: 10rpx auto; */
+	margin: 10rpx 10rpx 10rpx 18rpx;
+	/* margin-bottom:30rpx; */
+	/* margin-right: 20rpx; */
+	/* margin-left: 10rpx; */
+}
+.index_body4_box_left {
+	width: 316rpx;
+	height: 250rpx;
+	border-radius: 20rpx;
+}
+.index_body4_box_right {
+	width: 300rpx;
+	height: 220rpx;
+	margin: 0 auto;
+}
+.index_body4_box_left_pic {
+	width: 316rpx;
+	height: 300rpx;
+	border-top-left-radius: 20rpx;
+	border-top-right-radius: 20rpx;
+}
+.index_body4_box_right_1 {
+	width: 300rpx;
+	height: 66rpx;
+	font-size: 30rpx;
+	letter-spacing: 2rpx;
+	font-weight: 550;
+	padding-top: 18rpx;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	/* border: 2rpx solid green; */
+}
+.speed {
+	font-size: 28rpx;
+	margin-left: 15rpx;
+	margin-right: 15rpx;
+}
+.index_body4_box_right_2 {
+	width: 300rpx;
+	height: auto;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.index_body4_box_right_3 {
+	width: 300rpx;
+	height: 36rpx;
+	/* border: 2rpx solid green; */
+	margin-top: 16rpx;
+}
+.moneytype {
+	width: 150rpx;
+	height: 44rpx;
+}
+.money_sign {
+	width: 20rpx;
+	height: 40rpx;
+	color: #FA0100;
+	font-size: 26rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	margin-right: 10rpx
+}
+.money {
+	width: 240rpx;
+	height: 40rpx;
+	font-size: 32rpx;
+	color: #FA0100;
+	font-weight: 600;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.number {
+	width: 170rpx;
+	height: 40rpx;
+	color: #6F6F6F;
+	margin-left: 15rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+

@@ -1,0 +1,114 @@
+
+page {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.contents {
+	width: 100vw;
+	height: 100vh;
+}
+.top {
+	position: relative;
+	width: 93%;
+	height: 36%;
+	background-color: #FFFFFF;
+	margin: 0 auto;
+	top: 30rpx;
+	border-radius: 20rpx;
+}
+.top_one {
+	width: 100%;
+	height: 110rpx;
+	padding-top: 40rpx;
+	font-size: 32rpx;
+}
+.top_one_t {
+	width: 30%;
+}
+.yanse {
+	color: #8D8D8D;
+	font-size: 28rpx;
+}
+.top_right {
+	width: 70%;
+	height: 100%;
+	border-bottom: 1px solid #E5E5E5
+}
+.top_right image {
+	width: 40rpx;
+	height: 30rpx;
+	margin-right: 20rpx
+}
+.name {
+	color: #8D8D8D
+}
+.uni-input-placeholder {
+	color: #8D8D8D;
+	font-size: 28rpx;
+}
+.top_middle {
+	width: 50%;
+	/* border:1px solid red; */
+	color: #999999;
+	margin-top: 20rpx
+}
+.title {
+	width: 67%;
+}
+.bottom {
+	width: 86%;
+	height: 80rpx;
+	border-bottom: 1px solid #A0A0A0;
+	margin: 20rpx 0 20rpx 26rpx
+}
+.left {
+	font-size: 60rpx;
+}
+.btn {
+	width: 30%;
+	height: 70rpx;
+	line-height: 70rpx;
+	background-color: #000000;
+	border-radius: 20rpx;
+	text-align: center;
+	margin: 40rpx auto
+}
+.jia {
+	height: 100rpx;
+	background-color: #FFFFFF;
+	color: #999999;
+	padding-left: 30rpx;
+}
+.jia image {
+	width: 600rpx;
+	height: 90rpx;
+}
+.btns {
+	width: 100%;
+	height: 120rpx;
+	position: fixed;
+	bottom: 32rpx
+}
+.btns image {
+	width: 94%;
+	height: 100rpx
+}
+.tian {
+	font-size: 32rpx;
+}
+.cu-dialog {
+	height: 540rpx;
+	background-color: #FFFFFF;
+}
+.cu-list.menu {
+	height: 320rpx;
+	background-color: #FFFFFF;
+}
+.bank_img {
+	width: 40rpx;
+	height: 40rpx;
+	border-radius: 20rpx;
+	margin-right: 30rpx
+}
+

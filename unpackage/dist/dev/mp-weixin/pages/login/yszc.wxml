@@ -1,0 +1,1 @@
+<view class="yszc_content "><view class="yszc_box"><view class="yszc_body "><rich-text nodes="{{listData}}"></rich-text></view></view></view>

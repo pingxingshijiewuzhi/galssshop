@@ -1,0 +1,190 @@
+
+page {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.kong {
+	width: 100%;
+	height: 25px;
+	background-color: #FF3237;
+}
+.top {
+	width: 100%;
+	height: 88rpx;
+	padding: 26rpx;
+	border-bottom: 1px solid #F2F2F2;
+	background-color: #FF3237;
+	color: #FFFFFF;
+}
+.up_img {
+	width: 20rpx;
+	height: 30rpx
+}
+.titles {
+	font-size: 32rpx;
+	color: #FFFFFF;
+	font-weight: 700;
+}
+.list {
+	width: 100%;
+	height: 90%;
+	overflow-y: scroll;
+	/* border:1px solid */
+}
+.new_list {
+	width: 100%;
+	height: 98%;
+	border-radius: 10px;
+	margin-left: 20rpx
+}
+.list_one {
+	width: 100%;
+	height: 186rpx;
+	margin: 20rpx auto;
+	background-color: #FFFFFF;
+}
+.list_one_new {
+	width: 100%;
+	height: 186rpx;
+	margin: 20rpx auto;
+	padding-left: 30rpx;
+	background-color: #FFFFFF;
+}
+.list_t {
+	width: 100%;
+	height: 200rpx;
+}
+.list_b {
+	width: 100%;
+	height: 300rpx;
+}
+.good_img {
+	width: 200rpx;
+	height: 140rpx;
+	border-radius: 10rpx;
+	margin-left: 20rpx;
+}
+.left {
+	width: 250rpx;
+	height: 100%;
+	padding-left: 20rpx;
+	border: 1px solid
+}
+.right {
+	width: 93%;
+	height: 120rpx;
+	margin-left: 30rpx;
+}
+.title {
+	width: 100%;
+	height: 100rpx;
+	font-size: 30rpx;
+}
+.star {
+	width: 200rpx;
+	height: 40rpx;
+}
+.star image {
+	width: 26rpx;
+	height: 26rpx;
+	margin-right: 10rpx
+}
+.right_b {
+	width: 89%;
+	height: 40rpx;
+}
+.money {
+	color: #FC0100;
+	font-size: 24rpx;
+}
+.money_r {
+	font-size: 32rpx;
+}
+.number {
+	font-size: 24rpx;
+	color: #888888;
+	margin-left: 10rpx
+}
+.btns {
+	width: 100%;
+	height: 120rpx;
+	background-color: #FFFFFF;
+	position: fixed;
+	bottom: 0rpx;
+	box-shadow: 10px 10px 42px rgba(0, 0, 0, .1);
+}
+.btn_l {
+	width: 40%;
+	height: 100%;
+}
+.btns image {
+	width: 150rpx;
+	height: 60rpx
+}
+.jianju {
+	margin-right: 20rpx
+}
+.box {
+	width: 100%;
+	height: 50%;
+	margin-top: 280rpx;
+	color: #5B5B63;
+	letter-spacing: 3rpx;
+	font-size: 32rpx;
+}
+.box image {
+	width: 218rpx;
+	height: 236rpx;
+	margin-bottom: 110rpx;
+}
+.content1 {
+	width: 100% !important;
+	height: 70rpx;
+	color: #333333;
+	font-size: 32rpx;
+	font-weight: 600;
+	letter-spacing: 6rpx;
+}
+.padding-xl {
+	background-color: #FFFFFF;
+	padding: 0;
+}
+.row {
+	height: 130rpx;
+	color: #000000;
+	letter-spacing: 3rpx;
+	padding-top: 20rpx;
+}
+.action_left {
+	width: 50%;
+	height: 80rpx;
+	font-size: 30rpx;
+	background-color: #FFFFFF;
+}
+.action_left:hover {
+	color: #FF3237;
+}
+.action_right {
+	width: 50%;
+	height: 80rpx;
+	font-size: 30rpx;
+	background-color: #FFFFFF;
+}
+.action_right:hover {
+	color: #FF3237;
+}
+.shanchu {
+	width: 220rpx;
+	height: 80rpx;
+	line-height: 80rpx;
+	color: #FFFFFF;
+	text-align: center;
+	border-radius: 14rpx;
+	background-color: #FF3237;
+}
+.cu-dialog {
+	border-radius: 20rpx;
+	width: 600rpx
+}
+

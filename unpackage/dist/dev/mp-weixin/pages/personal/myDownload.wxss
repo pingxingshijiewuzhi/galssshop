@@ -1,0 +1,104 @@
+
+.box {
+	width: 100vw;
+	height: 100vh;
+}
+
+/* border */
+.border {
+	width: 90%;
+	height: 80rpx;
+	margin: 0 auto;
+	background-color: #EEEEEE;
+	padding-top: 10rpx;
+	margin-top: 30rpx;
+	border-radius: 20rpx 20rpx;
+}
+.border image {
+	width: 30rpx;
+	height: 30rpx;
+	margin-left: 30rpx;
+}
+.border input {
+	width: 100%;
+	height: 60rpx;
+	margin-left: 30rpx;
+}
+
+/* list */
+.big_list {
+	width: 100%;
+	overflow-y: scroll;
+	height: calc(100% - 140rpx);
+}
+.list {
+	width: 45%;
+	background-color: #FFFFFF;
+	border-radius: 20rpx 20rpx;
+	margin-top: 30rpx;
+	position: relative;
+	display: inline-block;
+}
+.list_colors {
+	color: #FF3237;
+	font-size: 26rpx;
+	padding-left: 13rpx;
+}
+.list:nth-child(odd) {
+	margin-left: 3%;
+	margin-right: 4%;
+}
+.list image {
+	width: 100%;
+	height: 360rpx;
+	border-radius: 20rpx 20rpx 0 0;
+}
+.list_bottom {
+	margin-top: 20rpx;
+	padding-bottom: 10rpx;
+}
+.list_color {
+	position: absolute;
+	right: 20rpx;
+	font-size: 28rpx;
+	color: #868686;
+}
+.list_color image {
+	width: 26rpx;
+	height: 22rpx;
+}
+.list_xiazai {
+	width: 86rpx;
+	height: 40rpx;
+	line-height: 40rpx;
+	background-color: #FE3337;
+	color: #FFFFFF;
+	text-align: center;
+	border-radius: 10rpx 10rpx;
+	margin-left: 20rpx;
+}
+.list_center {
+	width: 100%;
+	height: 80rpx;
+	line-height: 40rpx;
+	margin-top: 12rpx;
+	overflow: hidden;
+	word-break: break-all;
+	/* break-all(允许在单词内换行。) */
+	text-overflow: ellipsis;
+	/* 超出部分省略号 */
+	display: -webkit-box;
+	/** 对象作为伸缩盒子模型显示 **/
+	-webkit-box-orient: vertical;
+	/** 设置或检索伸缩盒对象的子元素的排列方式 **/
+	-webkit-line-clamp: 2;
+	padding: 0 16rpx;
+}
+.list_money {
+	padding-left: 16rpx;
+}
+.list_money text {
+	font-size: 32rpx;
+	font-size: 600;
+}
+

@@ -1,0 +1,1 @@
+<view class="content"><view class="box flexs"><view class="bg flexs"><image src="{{imageUrl}}"></image></view></view></view>

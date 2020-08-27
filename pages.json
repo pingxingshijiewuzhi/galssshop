@@ -1,0 +1,665 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{ //分类
+			"path": "pages/myorder/payment",
+			"style": {
+				"navigationBarTitleText": "订单支付",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color": "#F2F2F2"
+						}
+					}
+				}
+			}
+		},
+		{// 物流
+			"path": "pages/logistics/logistics",
+			"style": {
+				"navigationBarTitleText": "物流信息"
+			}
+		},
+		{
+			"path": "pages/companyprofile/companyprofile",
+			"style": {
+				"navigationBarTitleText": "公司简介"
+			}
+		},
+		{
+		    "path" : "pages/outPage/outPage",
+		    "style" : {}
+		},
+		{ //分类
+			"path": "pages/myorder/payments",
+			"style": {
+				"navigationBarTitleText": "订单支付",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color": "#F2F2F2"
+						}
+					}
+				}
+			}
+		},
+		{ //分类
+			"path": "pages/myorder/myorder",
+			"style": {
+				"navigationBarTitleText": "确认订单"
+			}
+		},
+		{ //分类
+			"path": "pages/assess/allassess",
+			"style": {
+				"navigationBarTitleText": "全部评价"
+			}
+		},
+		{ //分类
+			"path": "pages/mydetail/mydetail",
+			"style": {
+				// "navigationBarTitleText":"商品详情"
+				"navigationStyle": "custom"
+			}
+		},
+
+		{ //商品列表页
+			"path": "pages/index/searchgood",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{ // 下载中心商品列表页
+			"path": "pages/download/serch",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+
+		{ //个人中心 
+			"path": "pages/personal/personal",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{ //个人资料
+			"path": "pages/personal/infomation",
+			"style": {
+				"navigationBarTitleText": "个人资料",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color": "#F2F2F2"
+						}
+					}
+				}
+			}
+		},
+		{ //个人信息---修改昵称
+			"path": "pages/personal/setNickname",
+			"style": {
+				"navigationBarTitleText": "修改昵称",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color": "#F2F2F2"
+						}
+					}
+				}
+			}
+		},
+		{ //我的钱包
+			"path": "pages/wallet/wallet",
+			"style": {
+				"navigationBarTitleText": "我的钱包",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color": "#F2F2F2"
+						}
+					}
+				}
+			}
+		},
+		{ //我的钱包--账户充值 
+			"path": "pages/wallet/topUp",
+			"style": {
+				"navigationBarTitleText": "账户充值",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color": "#F2F2F2"
+						}
+					}
+				}
+			}
+		},
+		{ //我的钱包--提现 bank
+			"path": "pages/wallet/withdrawal",
+			"style": {
+				"navigationBarTitleText": "提现",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color": "#F2F2F2"
+						}
+					}
+				}
+			}
+		},
+		{ //我的钱包--银行卡
+			"path": "pages/wallet/bank",
+			"style": {
+				"navigationBarTitleText": "银行卡",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color": "#F2F2F2"
+						}
+					}
+				}
+			}
+		},
+		{ //我的钱包--解绑银行卡  
+			"path": "pages/wallet/delBank",
+			"style": {
+				"navigationBarTitleText": "解绑银行卡",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color": "#F2F2F2"
+						}
+					}
+				}
+			}
+		},
+		{ //我的钱包--添加银行卡 
+			"path": "pages/wallet/addBank",
+			"style": {
+				"navigationBarTitleText": "添加银行卡",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color": "#F2F2F2"
+						}
+					}
+				}
+			}
+		},
+		{ //我的钱包-- 提现记录
+			"path": "pages/wallet/withdrawalList",
+			"style": {
+				"navigationBarTitleText": "提现记录",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color": "#F2F2F2"
+						}
+					}
+				}
+			}
+		},
+		{ //我的钱包-- 充值记录 
+			"path": "pages/wallet/topupList",
+			"style": {
+				"navigationBarTitleText": "充值记录",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color": "#F2F2F2"
+						}
+					}
+				}
+			}
+		},
+		{ //我的---设置 
+			"path": "pages/setUp/setUp",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color": "#F2F2F2"
+						}
+					}
+				}
+			}
+		},
+		{ //我的---账号安全 
+			"path": "pages/setUp/account",
+			"style": {
+				"navigationBarTitleText": "账号安全",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color": "#F2F2F2"
+						}
+					}
+				}
+			}
+		},
+		{ //我的---账号安全---修改旧手机号 
+			"path": "pages/setUp/setMobile",
+			"style": {
+				"navigationBarTitleText": "修改手机号",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color": "#F2F2F2"
+						}
+					}
+				}
+			}
+		},
+		{ //我的---账号安全---修改新手机号  setLogin
+			"path": "pages/setUp/setMobilenew",
+			"style": {
+				"navigationBarTitleText": "修改手机号",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color": "#F2F2F2"
+						}
+					}
+				}
+			}
+		},
+		{ //我的---账号安全---修改登录密码   
+			"path": "pages/setUp/setLogin",
+			"style": {
+				"navigationBarTitleText": "修改登录密码",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color": "#F2F2F2"
+						}
+					}
+				}
+			}
+		},
+		{ //我的---账号安全---设置支付密码  
+			"path": "pages/setUp/setPay",
+			"style": {
+				"navigationBarTitleText": "设置支付密码",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color": "#F2F2F2"
+						}
+					}
+				}
+			}
+		},
+		{ //我的---账号安全---修改支付密码 setForget 
+			"path": "pages/setUp/setPaynew",
+			"style": {
+				"navigationBarTitleText": "修改支付密码",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color": "#F2F2F2"
+						}
+					}
+				}
+			}
+		},
+		{ //我的---账号安全---忘记支付密码--输入手机号  
+			"path": "pages/setUp/setForget",
+			"style": {
+				"navigationBarTitleText": "忘记密码",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color": "#F2F2F2"
+						}
+					}
+				}
+			}
+		},
+		{ //我的---账号安全---忘记支付密码  
+			"path": "pages/setUp/setForgetnew",
+			"style": {
+				"navigationBarTitleText": "忘记密码",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color": "#F2F2F2"
+						}
+					}
+				}
+			}
+		},
+		{ //我的---我的评价
+			"path": "pages/personal/evaluation",
+			"style": {
+				"navigationBarTitleText": "我的评价",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color": "#F2F2F2"
+						}
+					}
+				}
+			}
+		},
+		{ //我的地址 
+			"path": "pages/address/address",
+			"style": {
+				"navigationBarTitleText": "我的地址",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color": "#F2F2F2"
+						}
+					}
+				}
+			}
+		},
+		{ //我的地址 
+			"path": "pages/address/addAddress",
+			"style": {
+				"navigationBarTitleText": "我的地址"
+				// "app-plus": {
+				//   "titleNView": {    
+				//     "splitLine": {  
+				//       "color":"#F2F2F2"  
+				//     }    
+				//   }    
+				// }
+			}
+		},
+		{ //商品收藏
+			"path": "pages/collection/collection",
+			"style": {
+				"navigationStyle": "custom"
+				// "enablePullDownRefresh": true
+			}
+		},
+		{ //浏览历史
+			"path": "pages/browse/browse",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{ //问题反馈
+			"path": "pages/personal/feedback",
+			"style": {
+				"navigationBarTitleText": "问题反馈",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color": "#F2F2F2"
+						}
+					}
+				}
+			}
+		},
+		{ //退款详情
+			"path": "pages/order/refund",
+			"style": {
+				"navigationBarTitleText": "退款详情"
+			}
+		},
+		{ //我的订单
+			"path": "pages/order/orderList",
+			"style": {
+				"navigationBarTitleText": "我的订单"
+			}
+		},
+		{ //我的订单
+			"path": "pages/order/prouctord",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{ //我的订单
+			"path": "pages/order/prouctorc",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{ //我的订单
+			"path": "pages/order/prouctorb",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{ //我的订单
+			"path": "pages/order/prouctora",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{ //我的订单
+			"path": "pages/order/prouctor",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{ //我的订单--订单详情 evaluation
+			"path": "pages/order/detail",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+				// "enablePullDownRefresh": true
+			}
+		},
+		{ //去评价 success
+			"path": "pages/evaluation/evaluation",
+			"style": {
+				"navigationBarTitleText": "去评价",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color": "#F2F2F2"
+						}
+					}
+				}
+			}
+		},
+		{ //评价成功  refund
+			"path": "pages/evaluation/success",
+			"style": {
+				"navigationBarTitleText": "评价成功",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color": "#F2F2F2"
+						}
+					}
+				}
+			}
+		},
+		{ //退款进度  
+			"path": "pages/refund/refund",
+			"style": {
+				"navigationBarTitleText": "退款进度",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color": "#F2F2F2"
+						}
+					}
+				}
+			}
+		},
+		{ //消息  
+			"path": "pages/personal/message",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color": "#F2F2F2"
+						}
+					}
+				}
+			}
+		},
+		{ //订单支付  
+			"path": "pages/order/paySuccess",
+			"style": {
+				"navigationBarTitleText": "订单支付",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color": "#F2F2F2"
+						}
+					}
+				}
+			}
+		},
+		{ //购物车
+			"path": "pages/shopCar/shopCar",
+			"style": {
+				"navigationStyle": "custom"
+				// "enablePullDownRefresh": true
+			}
+		},
+		{ //分类
+			"path": "pages/category/category",
+			"style": {
+				"navigationBarTitleText": "分类"
+			}
+		},
+		{
+			"path": "pages/index/indexkey",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/setpassword",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color": "#F2F2F2"
+						}
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/login/forgetpass",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color": "#F2F2F2"
+						}
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/login/resetpassword",
+			"style": {
+				"navigationBarTitleText": "重置密码"
+			}
+		},
+		{
+			"path": "pages/login/zcxy",
+			"style": {
+				"navigationBarTitleText": "注册协议"
+			}
+		},
+		{
+			"path": "pages/login/yszc",
+			"style": {
+				"navigationBarTitleText": "隐私政策"
+			}
+		}, {
+			"path": "pages/checkbox/checkbox",
+			"style": {}
+		},
+		{
+			"path": "pages/download/download",
+			"style": {
+				"navigationBarTitleText": "图片商城",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/personal/myDownload",
+			"style": {
+				"navigationBarTitleText": "我的下载"
+			}
+		},
+		{
+			"path": "pages/personal/share",
+			"style": {
+				"navigationBarTitleText": "我的分享"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "美华玻璃",
+		"navigationBarBackgroundColor": "#FF3237",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#1B1A1F",
+		"selectedColor": "#FF3237",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/pic/tab_index@2x.png",
+				"selectedIconPath": "static/pic/tab_index_pre@2x.png",
+				"enablePullDownRefresh": true,
+				"text": "首页"
+			},
+			// {
+			//  "pagePath": "pages/category/category",
+			//  "iconPath": "static/image/tabbar_icon_home_default@2x.png",
+			//  "selectedIconPath": "static/image/tabbar_icon_fenlei_selected@2x.png",
+			//  "enablePullDownRefresh": true,
+			//  "text": "分类"
+			// },
+			{
+				"pagePath": "pages/download/download",
+				"iconPath": "static/pic/tab_download@2x.png",
+				"selectedIconPath": "static/pic/tab_download_pre@2x.png",
+				"enablePullDownRefresh": true,
+				"text": "图片中心"
+			},
+			{
+				"pagePath": "pages/shopCar/shopCar",
+				"iconPath": "static/pic/tab_car@2x.png",
+				"selectedIconPath": "static/pic/tab_car_pre@2x.png",
+				"enablePullDownRefresh": true,
+				"text": "购物车"
+			},
+			{
+				"pagePath": "pages/personal/personal",
+				"iconPath": "static/pic/tab_mine@2x.png",
+				"selectedIconPath": "static/pic/tab_mine_pre@2x.png",
+				"enablePullDownRefresh": true,
+				"text": "我的"
+			}
+		]
+	}
+}
